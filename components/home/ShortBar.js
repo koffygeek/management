@@ -19,19 +19,18 @@ const ShortBar = () => {
             <span className="text-[1rem] md:text-[1.2rem] font-bold ">
               Freelance
             </span>
-            <div className="relative inline-block w-12 h-6">
-              <div
-                onClick={isFreelanceHandler}
+
+            <div
+              onClick={isFreelanceHandler}
+              className={`${
+                isFreelance ? "bg-[#91d327]" : "bg-gray-300 "
+              } relative cursor-pointer inline-block w-12 h-6 rounded-full `}
+            >
+              <span
                 className={`${
-                  isFreelance ? "bg-[#91d327]" : "bg-gray-300 "
-                } relative cursor-pointer inline-block w-12 h-6 rounded-full `}
-              >
-                <span
-                  className={`${
-                    isFreelance ? "translate-x-6" : " "
-                  } absolute w-6 h-6 bg-white rounded-full shadow-md transition-transform `}
-                ></span>
-              </div>
+                  isFreelance ? "translate-x-6" : " "
+                } absolute w-6 h-6 bg-white rounded-full shadow-md transition-transform `}
+              ></span>
             </div>
           </li>
           <li className="flex items-center space-x-2">
@@ -40,14 +39,14 @@ const ShortBar = () => {
             </span>
             <div className="relative inline-block w-12 h-6">
               <div
-                onClick={isFreelanceHandler}
+                onClick={isFullTimeHandler}
                 className={`${
-                  isFreelance ? "bg-[#91d327]" : "bg-gray-300 "
+                  isFullTime ? "bg-[#91d327]" : "bg-gray-300 "
                 } relative cursor-pointer inline-block w-12 h-6 rounded-full `}
               >
                 <span
                   className={`${
-                    isFreelance ? "translate-x-6" : " "
+                    isFullTime ? "translate-x-6" : " "
                   } absolute w-6 h-6 bg-white rounded-full shadow-md transition-transform `}
                 ></span>
               </div>
