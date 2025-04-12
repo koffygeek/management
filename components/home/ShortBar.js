@@ -20,7 +20,18 @@ const ShortBar = () => {
               Freelance
             </span>
             <div className="relative inline-block w-12 h-6">
-              <div onClick={isFreelanceHandler} className="relative cursor-pointer inline-block w-12 h-6 rounded-full bg-[#91d327]  "> <span className="absolute w-6 h-6 bg-white rounded-full shadow-md "></span>  </div>
+              <div
+                onClick={isFreelanceHandler}
+                className={`${
+                  isFreelance ? "bg-[#91d327]" : "bg-gray-300 "
+                } relative cursor-pointer inline-block w-12 h-6 rounded-full `}
+              >
+                <span
+                  className={`${
+                    isFreelance ? "translate-x-6" : " "
+                  } absolute w-6 h-6 bg-white rounded-full shadow-md transition-transform `}
+                ></span>
+              </div>
             </div>
           </li>
           <li className="flex items-center space-x-2">
@@ -28,7 +39,18 @@ const ShortBar = () => {
               Plein Emploi
             </span>
             <div className="relative inline-block w-12 h-6">
-              <div></div>
+              <div
+                onClick={isFreelanceHandler}
+                className={`${
+                  isFreelance ? "bg-[#91d327]" : "bg-gray-300 "
+                } relative cursor-pointer inline-block w-12 h-6 rounded-full `}
+              >
+                <span
+                  className={`${
+                    isFreelance ? "translate-x-6" : " "
+                  } absolute w-6 h-6 bg-white rounded-full shadow-md transition-transform `}
+                ></span>
+              </div>
             </div>
           </li>
         </ul>
