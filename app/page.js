@@ -1,6 +1,7 @@
 "use client";
 import HomeHeader from "@/components/home/HomeHeader";
 import HomeJob from "@/components/home/HomeJob";
+import Pagination from "@/components/home/Pagination";
 import ShortBar from "@/components/home/ShortBar";
 
 export default function Home() {
@@ -9,6 +10,7 @@ export default function Home() {
       <HomeHeader />
       <ShortBar />
       <HomeJob />
+      <Pagination />
     </main>
   );
 }
