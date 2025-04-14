@@ -68,7 +68,7 @@ const HomeHeader = () => {
         </div>
         <div className="lg:order-2 order-1">
           <Image
-            src={"/svg/job-search-search-svgrepo-com.svg"}
+            src={"/public/Images/svg/job-search-search-svgrepo-com.svg"}
             alt="header"
             width={600}
             height={600}
