@@ -1,14 +1,14 @@
 "use client";
 import HomeHeader from "@/components/home/HomeHeader";
+import HomeJob from "@/components/home/HomeJob";
 import ShortBar from "@/components/home/ShortBar";
-import JobTemplate from "@/components/utilities/JobTemplate";
 
 export default function Home() {
   return (
     <main className="">
       <HomeHeader />
       <ShortBar />
-      <JobTemplate />
+      <HomeJob />
     </main>
   );
 }
