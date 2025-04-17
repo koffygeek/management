@@ -27,8 +27,8 @@ const Pagination = () => {
               Precedent
             </Link>
           </button>
-          <ul className="rounded-full px-3 flex justify-center items-center space-x-4 bg-[#83d32730] ">
-            <li>
+          <ul className="font-bold rounded-full px-3 flex justify-center items-center space-x-4 bg-[#83d32730] ">
+            <li className="bg-[#83d327] rounded-full px-3 py-1 text-white font-bold">
               <Link href="/">1</Link>
             </li>
             <li>
