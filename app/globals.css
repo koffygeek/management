@@ -26,6 +26,16 @@ body {
   grid-template-rows: 70px 3fr 1fr;
 }
 
-.categorie-grid {  
+.categorie-grid {
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.profile-grid {
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+@media(min-width: 1024px) {
+  .profile-grid {
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  }
 }

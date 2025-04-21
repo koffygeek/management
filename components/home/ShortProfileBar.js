@@ -13,7 +13,7 @@ const ShortProfileBar = () => {
   };
   return (
     <div>
-      <div className="w-full bg-[#fcfcfc] ">
+      <div className="w-full  ">
         <div className="py-10 w-[95%] lg:w-[90%] xl:w-[80%] mx-auto flex flex-col lg:flex-row justify-between items-center  space-x-2 lg:space-x-0  ">
             <div className="text-[1.2rem] md:text-[1.8rem lg:text-[2rem] font-bold flex space-x-4">
                 <span className="text-[#91d327] ">265</span>
