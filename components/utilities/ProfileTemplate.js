@@ -6,16 +6,16 @@ const ProfileTemplate = () => {
   return (
     <Link
       href={"/details/profil/id"}
-      className="p-6 bg-white shadow-lg rounded-[0.8rem] flex flex-col items-center "
+      className="p-6 bg-white shadow-lg rounded-[0.8rem] flex flex-col items-center"
     >
       <Image
         src={"/Images/users/userprofile.png"}
-        alt="image"
         width={100}
         height={100}
         className=" rounded-full "
+        alt="image"
       />
-      <span className="mx-2 bg-[#83d327] rounded-full px-6 py-2 text-[1rem] text-white ">
+      <span className="my-2 bg-[#83d327] rounded-full px-6 py-2 text-[1rem] text-white ">
         Disponible
       </span>
       <h4 className="text-[1.2rem] font-bold py-2 ">Yvan Grébé</h4>
@@ -74,9 +74,9 @@ const ProfileTemplate = () => {
       <div className="flex items-center space-x-1">
         <Image
           src={"/Images/svg/money-bag-svgrepo-com.svg"}
-          alt="image"
           width={22}
           height={22}
+          alt="image"
           className=""
         />
         <div className=" flex items-center">
@@ -97,9 +97,7 @@ const ProfileTemplate = () => {
           className=""
         />
 
-        <h4 className="text-[1rem] font-bold  ">
-          Abidjan, Plateau
-        </h4>
+        <h4 className="text-[1rem] font-bold  ">Abidjan, Plateau</h4>
       </div>
     </Link>
   );

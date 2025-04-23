@@ -3,8 +3,9 @@ import ProfileTemplate from '../utilities/ProfileTemplate'
 
 const ProfileHome = () => {
   return (
-    <div className='w-[95%] lg:w-[90%] pb-10 mx-auto '>
-      <div className='grid gap-6 profil-grid'>
+    <div className='w-[95%] lg:w-[80%] pb-10 mx-auto '>
+      <div className='grid grid-cols-4 gap-4 '>
+        <ProfileTemplate />
         <ProfileTemplate />
         <ProfileTemplate />
         <ProfileTemplate />
